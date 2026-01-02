@@ -1,0 +1,5 @@
+export * from './clients/index'
+export * from './extras/index'
+export * from './reports/index'
+export * from './rooms/index'
+export * from './stays/index'

@@ -1,0 +1,7 @@
+export * from './ban-client'
+export * from './clients-table'
+export * from './edit-client'
+export * from './info-client'
+export * from './search-by-dni'
+export * from './search-by-name'
+export * from './stays-client'

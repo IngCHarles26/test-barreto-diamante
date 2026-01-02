@@ -1,5 +1,5 @@
 import { LoginForm } from "@/core/components"
-import { GalleryVerticalEnd } from "lucide-react"
+import { Hotel } from "lucide-react"
 
 
 export default function LoginPage() {
@@ -9,9 +9,9 @@ export default function LoginPage() {
         <div className="flex justify-center gap-2 md:justify-start">
           <a href="#" className="flex items-center gap-2 font-medium">
             <div className="bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md">
-              <GalleryVerticalEnd className="size-4" />
+              <Hotel className="size-4" />
             </div>
-            Acme Inc.
+            Hostal Barreto-Diamante
           </a>
         </div>
         <div className="flex flex-1 items-center justify-center">
@@ -22,7 +22,7 @@ export default function LoginPage() {
       </div>
       <div className="bg-muted relative hidden lg:block">
         <img
-          src="/placeholder.svg"
+          src="https://t4.ftcdn.net/jpg/00/09/21/15/360_F_9211505_d4hxfNtPeTfgt7AeGmoO7u79P2hwxkoQ.jpg"
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />
